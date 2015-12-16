@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2015 Alexander01998 and contributors
+ * Copyright Â© 2014 - 2015 Alexander01998 and contributors
  * All rights reserved.
  * 
  * This Source Code Form is subject to the terms of the Mozilla Public
@@ -36,7 +36,7 @@ public class StepMod extends Mod implements UpdateListener
 				Minecraft.getMinecraft().thePlayer.jump();
 		}else
 			Minecraft.getMinecraft().thePlayer.stepHeight =
-				isEnabled() ? 1.0F : 0.5F;
+				isEnabled() ? 10.0F : 0.5F;
 	}
 	
 	@Override
